@@ -1,5 +1,5 @@
 g++ mainv1.cpp -o solar_system -framework OpenGL -framework GLUT
-
+git 
 ./solar_system
 
 
@@ -11,7 +11,7 @@ gcc mainv1.c -o solar_system -framework OpenGL -framework GLUT
 
 g++ ex1.c -o solar_system.exe -lfreeglut -lopengl32 -lglu32
 
-## Executing
+## Executing By selecting the path manually
 g++ ex1.c -o ex1.exe -I"C:\freeglut_mingw64\include" -L"C:\freeglut_mingw64\lib\x64" -lfreeglut -lopengl32 -lglu32
 
 
